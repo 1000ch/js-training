@@ -1,0 +1,24 @@
+{
+  "name": "js-training",
+  "private": true,
+  "version": "0.0.0",
+  "description": "JavaScript Training!",
+  "scripts": {
+    "test": "mocha test/*.js",
+    "tdd": "mocha test/*.js --watch question/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1000ch/js-training.git"
+  },
+  "author": "1000ch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1000ch/js-training/issues"
+  },
+  "homepage": "https://github.com/1000ch/js-training#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "power-assert": "^0.11.0"
+  }
+}
