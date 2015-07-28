@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "description": "JavaScript Training!",
   "scripts": {
-    "test": "mocha test/*.js",
-    "tdd": "mocha test/*.js --watch question/*.js"
+    "test": "mocha --require intelli-espower-loader test/*.js",
+    "tdd": "mocha --require intelli-espower-loader test/*.js --watch question/*.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/1000ch/js-training#readme",
   "devDependencies": {
+    "espower-loader": "^0.11.0",
+    "intelli-espower-loader": "^0.7.0",
     "mocha": "^2.2.5",
     "power-assert": "^0.11.0"
   }
