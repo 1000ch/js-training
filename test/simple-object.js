@@ -1,4 +1,4 @@
-var assert = require('power-assert');
+var assert = require('power-assert').customize({ output: { maxDepth: 0 }});
 var func   = require('../question/simple-object');
 
 describe('simple-object', function () {
