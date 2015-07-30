@@ -5,7 +5,7 @@
   "description": "JavaScript Training!",
   "scripts": {
     "test": "mocha --require intelli-espower-loader test/*.js",
-    "tdd": "mocha --require intelli-espower-loader test/*.js --watch question/*.js"
+    "start": "mocha --require intelli-espower-loader test/*.js --watch question/*.js"
   },
   "repository": {
     "type": "git",
